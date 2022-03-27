@@ -4,6 +4,12 @@ const cors = require('cors')
 app.use(express.json())
 app.use(cors());
 
-app.listen("4000", () => {
-    console.log("Server running on port 4000")
+const db = require("./models")
+// Routers
+
+db.sequelize.sync().then( () => {
+    app.listen("4000", () => {
+        console.log("Server running on port 4000")
+    })
 })
+

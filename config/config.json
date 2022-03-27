@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "masum1",
+    "password": "root123#Y",
+    "database": "oozou",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "masum1",
+    "password": "root123#Y",
+    "database": "oozou",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "masum1",
+    "password": "root123#Y",
+    "database": "oozou",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
